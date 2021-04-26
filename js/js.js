@@ -26,6 +26,9 @@ function suma() {
     var num2 = document.getElementById("n2").value;
     var num3 = document.getElementById("result");
     
+    num1 = parseFloat(num1);
+    num2 = parseFloat(num2);
+    
     num3.textContent=(num1 + num2)
 }
 
