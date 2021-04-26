@@ -6,23 +6,31 @@
     font-family: 'Zen Dots', cursive;
 }
 
+.fondo {
+    width: 130em;
+    height:auto;
+    margin: auto;
+    padding: 8em 2em 8em 2em;
+    background-image: url(../img/pexels-jess-bailey-designs-1007025.jpg);
+    background-size:cover;
+}
 
 .Calculadora{
-    width: 30em;
-    height: 40em;
+    width: 35em;
+    height: 45em;
     margin: auto;
-    margin-top: 3em;
-    background-color: cadetblue;
+    background-color: darkseagreen;
     border-radius: 3em;
-    padding: 3em;
+    padding: 4.5em;
     -webkit-box-shadow: -9px 10px 12px 0px rgba(101,186,156,1);
     -moz-box-shadow: -9px 10px 12px 0px rgba(101,186,156,1);
     box-shadow: -9px 10px 12px 0px rgba(101,186,156,1);
+    transform: rotate(5grad)
        
 }
 
 h1 {
-    margin: 1em;
+    margin-left: 3em;
 }
 
 .n {
@@ -30,6 +38,8 @@ h1 {
     flex-direction: row;
     margin-top: 3em;
 }
+
+
 
 #n1, #n2 {
     width: 5.5em;
@@ -40,15 +50,17 @@ h1 {
     border: 0;
     font-size: 2em;
 }
-
+#n2 {
+    margin-left: 1em;
+}
 
 #btn-s {
     width: 10em;
-    height: 2em;
+    height: 5em;
     border: 0;
     border-radius: 0.3em;
     margin: 2em;
-    margin-top: 0em;
+    margin-top: 3em;
 }
 
 #btn-s:hover {
@@ -58,11 +70,10 @@ h1 {
 
 #btn-r {
     width: 10em;
-    height: 2em;
+    height: 5em;
     border: 0;
     border-radius: 0.3em;
-    margin: 2em;
-    margin-top: 0em;
+    margin: 0em 0em 2em 3em;
 }
 
 #btn-r:hover {
@@ -72,7 +83,7 @@ h1 {
 
 #btn-d {
     width: 10em;
-    height: 2em;
+    height: 5em;
     border: 0;
     border-radius: 0.3em;
     margin: 2em;
@@ -86,11 +97,10 @@ h1 {
 
 #btn-m {
     width: 10em;
-    height: 2em;
+    height: 5em;
     border: 0;
     border-radius: 0.3em;
-    margin: 2em;
-    margin-top: 0em;
+    margin: 0em 0em 2em 3em;
 }
 
 #btn-m:hover {
@@ -100,20 +110,20 @@ h1 {
 
 .dcresults {
     width: 20em;
-    height: 5em;
+    height: 3em;
     background-color: white;
     margin: auto;
-    padding: 2em;
     margin-top: 3em;
+    padding: 1em 1em 1em 2em;
     border-radius: 2em;
 }
 
 #btn-rr {
-    width: 10em;
+    width: 15em;
     height: 2em;
     border: 0;
     border-radius: 0.3em;
-    margin: 3em 0em 0em 10em;
+    margin: 3em 0em 0em 8em;
 }
 
 #btn-rr:hover {
