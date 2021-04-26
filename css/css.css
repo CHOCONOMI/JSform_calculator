@@ -28,6 +28,7 @@ h1 {
 .n {
     display: flex;
     flex-direction: row;
+    margin-top: 3em;
 }
 
 #n1, #n2 {
@@ -40,10 +41,8 @@ h1 {
     font-size: 2em;
 }
 
-div{
-    margin-top: 3em;
-}
-#btn {
+
+#btn-s {
     width: 10em;
     height: 2em;
     border: 0;
@@ -52,7 +51,49 @@ div{
     margin-top: 0em;
 }
 
-#btn:hover {
+#btn-s:hover {
+    background-color: darkcyan;
+    transition: 0.3s;
+}
+
+#btn-r {
+    width: 10em;
+    height: 2em;
+    border: 0;
+    border-radius: 0.3em;
+    margin: 2em;
+    margin-top: 0em;
+}
+
+#btn-r:hover {
+    background-color: darkcyan;
+    transition: 0.3s;
+}
+
+#btn-d {
+    width: 10em;
+    height: 2em;
+    border: 0;
+    border-radius: 0.3em;
+    margin: 2em;
+    margin-top: 0em;
+}
+
+#btn-d:hover {
+    background-color: darkcyan;
+    transition: 0.3s;
+}
+
+#btn-m {
+    width: 10em;
+    height: 2em;
+    border: 0;
+    border-radius: 0.3em;
+    margin: 2em;
+    margin-top: 0em;
+}
+
+#btn-m:hover {
     background-color: darkcyan;
     transition: 0.3s;
 }
@@ -62,6 +103,15 @@ div{
     height: 5em;
     background-color: white;
     margin: auto;
+    padding: 2em;
     margin-top: 3em;
-    border-radius: 5em;
+    border-radius: 2em;
+}
+
+#btn-rr {
+    width: 10em;
+    height: 2em;
+    border: 0;
+    border-radius: 0.3em;
+    margin: 3em 0em 0em 10em;
 }
